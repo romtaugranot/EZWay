@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:id="@+id/map_settings_activity"
+    tools:context="MapSettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:paddingLeft="30dp"
+            android:src="@drawable/applogo"/>
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/arrow"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#d4d2d2"/>
+
+    <TextView
+        android:id="@+id/tvMapSettings"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/tvMapSettings"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/tvNorthMode"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:text="@string/tvNorthMode"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNo"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvNo"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center"/>
+
+        <Switch
+            android:id="@+id/northModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="0dp"
+            android:thumb="@drawable/switchthumb"
+            android:track="@drawable/switchtrack"
+            android:textOn=""
+            android:textOff=""/>
+
+        <TextView
+            android:id="@+id/tvYes"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvYes"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:text="@string/tvDistance"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvFeet"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvFeet"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center"/>
+
+        <Switch
+            android:id="@+id/distanceSwitch"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="0dp"
+            android:thumb="@drawable/switchthumb"
+            android:track="@drawable/switchtrack"
+            android:textOn=""
+            android:textOff=""
+            android:checked="true"/>
+
+        <TextView
+            android:id="@+id/tvMeters"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvMeters"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvCompass"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:text="@string/tvCompass"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNo2"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvNo"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center"/>
+
+        <Switch
+            android:id="@+id/compassSwitch"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="0dp"
+            android:thumb="@drawable/switchthumb"
+            android:track="@drawable/switchtrack"
+            android:textOn=""
+            android:textOff=""/>
+
+        <TextView
+            android:id="@+id/tvYes2"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvYes"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvSearchBar"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:text="@string/tvSearchBar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNo3"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvNo"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center"/>
+
+        <Switch
+            android:id="@+id/searchBarSwitch"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="0dp"
+            android:thumb="@drawable/switchthumb"
+            android:track="@drawable/switchtrack"
+            android:textOn=""
+            android:textOff=""/>
+
+        <TextView
+            android:id="@+id/tvYes3"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:text="@string/tvYes"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

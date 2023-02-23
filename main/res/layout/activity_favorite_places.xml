@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/favorite_places_layout"
+    tools:context=".FavoritePlacesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:paddingLeft="30dp"
+            android:src="@drawable/applogo"/>
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/arrow"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#d4d2d2"/>
+
+    <TextView
+        android:id="@+id/tvFavoritePlaces"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/tvFavoritePlaces"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d4d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/ivStar1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPlace1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+            android:text="Place #1"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivStar2"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPlace2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+            android:text="Place #2"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivStar3"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPlace3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+            android:text="Place #3"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivStar4"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPlace4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+            android:text="Place #4"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivStar5"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:paddingLeft="30dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPlace5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+            android:text="Place #5"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

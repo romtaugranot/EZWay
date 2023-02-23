@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/login_activity"
+    tools:context="LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/applogo"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:paddingRight="10dp"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="@string/etUsername"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="17sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/edittextdesign"
+        android:hint="@string/etPassword"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="13sp"
+        android:text="@string/btnLogIn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/loginbuttondesign" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:background="#edebeb"/>
+
+        <TextView
+            android:id="@+id/tvOr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/tvOr"
+            android:textSize="16sp"
+            android:textColor="@color/hintColor"
+            android:gravity="center_horizontal"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:background="#edebeb"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDontHave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/hintColor"
+        android:text="@string/tvDontHave"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:textColor="@color/blueText"
+        android:text="@string/tvSignUp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

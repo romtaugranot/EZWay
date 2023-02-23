@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">EZWay</string>
+
+    <!-- Login strings-->
+    <string name="etUsername">Enter Username</string>
+    <string name="etPassword">Enter Password</string>
+    <string name="btnLogIn">LOG IN</string>
+    <string name="tvOr">OR</string>
+    <string name="tvDontHave">Don\'t have an account?</string>
+    <string name="tvSignUp">Sign Up</string>
+
+    <!-- SignUp strings-->
+    <string name="etPasswordCon">Enter Password Again</string>
+    <string name="etEmail">Email</string>
+    <string name="btnSignUp">SIGN UP</string>
+
+    <!-- Menu strings-->
+    <string name="btnEditProfile">EDIT PROFILE</string>
+    <string name="tvSettings">Settings</string>
+    <string name="tvMapSettings">Map Settings</string>
+    <string name="tvFavoritePlaces">Favorite Places</string>
+    <string name="tvLogOut">Log Out</string>
+
+    <!-- Profile strings-->
+    <string name="tvCancel">Cancel</string>
+    <string name="tvEditProfile">Edit Profile</string>
+    <string name="tvDone">Done</string>
+    <string name="tvChangeProfilePic">Change Profile Photo</string>
+    <string name="tvName">Name</string>
+    <string name="tvEmail">Email</string>
+    <string name="tvChangePassword">Change Password</string>
+    <string name="etOldPassword">Current Password</string>
+    <string name="etNewPassword">New Password</string>
+    <string name="etNewPasswordCon">New Password Again</string>
+
+    <!-- Settings strings-->
+    <string name="tvLanguage">Language</string>
+    <string name="tvThemeApp">Theme of app</string>
+    <string name="tvNotifications">Notifications</string>
+    <string name="tvReminders">Reminders</string>
+    <string name="tvHebrew">Hebrew</string>
+    <string name="tvEnglish">English</string>
+    <string name="tvDark">Dark</string>
+    <string name="tvBright">Bright</string>
+    <string name="tvYes">Yes</string>
+    <string name="tvNo">No</string>
+
+    <!-- MapSettings strings-->
+    <string name="tvNorthMode">North Mode</string>
+    <string name="tvDistance">Distance In</string>
+    <string name="tvCompass">Compass</string>
+    <string name="tvSearchBar">Search Bar</string>
+    <string name="tvFeet">Feet</string>
+    <string name="tvMeters">Meters</string>
+
+    <!-- Map strings-->
+    <string name="tvMetersToGo">0 M</string>
+    <string name="shopButton">You are on your way to: \n\n ZARA</string>
+    <string name="discountButton">Discounts and promotions \n\n in this shop</string>
+    <string name="criticsButton">reviews about the place</string>
+
+    <!-- Shop strings-->
+    <string name="tvDescription">Description</string>
+    <string name="tvCall">Call</string>
+
+    <!-- Discount strings-->
+    <string name="tvDiscount">Discounts And Promotions</string>
+    <string name="tvUntil">Until:</string>
+    <string name="tvContent">Content:</string>
+
+    <!-- Critics strings-->
+    <string name="tvReviews">Reviews</string>
+    <string name="tvUsername">Username</string>
+    <string name="tvDate">Date</string>
+
+
+    <string name="tvMetersToGo2" translatable="false">0 M</string>
+    <string name="shopButton2" translatable="false">You are on your way to: \n\n ZARA</string>
+    <string name="discountButton2" translatable="false">Discounts and promotions \n\n in this shop</string>
+    <string name="criticsButton2" translatable="false">reviews about the place</string>
+
+</resources>

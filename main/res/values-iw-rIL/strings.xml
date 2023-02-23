@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EZWay</string>
+
+    <!-- Login strings-->
+    <string name="etUsername">הכנס שם משתמש</string>
+    <string name="etPassword">הכנס סיסמה</string>
+    <string name="btnLogIn">כניסה</string>
+    <string name="tvOr">או</string>
+    <string name="tvDontHave">אין משתמש?</string>
+    <string name="tvSignUp">הירשם</string>
+
+    <!-- SignUp strings-->
+    <string name="etPasswordCon">הכנס סיסמה שוב</string>
+    <string name="etEmail">הכנס אימייל</string>
+    <string name="btnSignUp">הירשם</string>
+
+    <!-- Menu strings-->
+    <string name="btnEditProfile">ערוך פרופיל</string>
+    <string name="tvSettings">הגדרות</string>
+    <string name="tvMapSettings">הגדרות מפה</string>
+    <string name="tvFavoritePlaces">מקומות מועדפים</string>
+    <string name="tvLogOut">להתנתק</string>
+
+    <!-- Profile strings-->
+    <string name="tvCancel">בטל</string>
+    <string name="tvEditProfile">ערוך פרופיל</string>
+    <string name="tvDone">ערוך</string>
+    <string name="tvChangeProfilePic">שנה תמונת פרופיל</string>
+    <string name="tvName">שם</string>
+    <string name="tvEmail">אימייל</string>
+    <string name="tvChangePassword">שנה סיסמה</string>
+    <string name="etOldPassword">הכנס סיסמה ישנה</string>
+    <string name="etNewPassword">הכנס סיסמה חדשה</string>
+    <string name="etNewPasswordCon">הכנס סיסמה חדשה שוב</string>
+
+    <!-- Settings strings-->
+    <string name="tvLanguage">שפה</string>
+    <string name="tvThemeApp">צבע הרקע</string>
+    <string name="tvNotifications">הודעות</string>
+    <string name="tvReminders">התראות</string>
+    <string name="tvHebrew">עברית</string>
+    <string name="tvEnglish">אנגלית</string>
+    <string name="tvDark">כהה</string>
+    <string name="tvBright">בהיר</string>
+    <string name="tvYes">כן</string>
+    <string name="tvNo">לא</string>
+
+    <!-- MapSettings strings-->
+    <string name="tvNorthMode">מצב צפון</string>
+    <string name="tvDistance">מרחק ב</string>
+    <string name="tvCompass">מצפן</string>
+    <string name="tvSearchBar">בר חיפוש</string>
+    <string name="tvFeet">רגל</string>
+    <string name="tvMeters">מטר</string>
+
+    <!-- Map strings-->
+    <string name="tvMetersToGo">0 מ</string>
+    <string name="shopButton">אתה בדרך ל: זארה</string>
+    <string name="discountButton">הנחות ומבצעים בחנות</string>
+    <string name="criticsButton">ביקורות על המקום</string>
+
+    <!-- Shop strings-->
+    <string name="tvDescription">תיאור</string>
+    <string name="tvCall">להתקשר</string>
+
+    <!-- Discount strings-->
+    <string name="tvDiscount">הנחות ומבצעים</string>
+    <string name="tvUntil">עד:</string>
+    <string name="tvContent">מכיל:</string>
+
+    <!-- Critics strings-->
+    <string name="tvReviews">ביקורות</string>
+    <string name="tvUsername">שם משתמש</string>
+    <string name="tvDate">תאריך</string>
+
+</resources>
